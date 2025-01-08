@@ -55,13 +55,15 @@ main {
   border: 3px solid white;
   border-radius: 1rem;
   font-weight: 200;
+font-size:small;
+color:rgb(182, 175, 164);
 
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .read-more {
   text-decoration: none;
-  color: black;
+  
   font-weight: 200;
 }
 
@@ -69,14 +71,18 @@ main {
   text-align: center;
 
   font-size: 4rem;
-  font-weight: 800;
+  font-weight: 700;
+  font-family: 'Mulish';
   color: #1f2937;
   margin-bottom: 16px;
   line-height: 1;
 }
 .dis {
   margin-bottom: 3rem;
-  font-weight: 200;
+  font-size:medium;
+
+  color:rgb(182, 175, 164);
+  font-weight: 100;
 }
 .buttons {
   display: inline-block;
