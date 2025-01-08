@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 .container {
-  font-family: "Inter", sans-serif;
+  font-family: "Mulish", sans-serif;
 
   width: 100%;
   height: 100vh;
@@ -21,7 +21,7 @@
   padding: 2rem 3rem;
 }
 .header-main {
-     font-weight: 600;
+     font-weight: 700;
      display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,7 +56,7 @@ main {
   border-radius: 1rem;
   font-weight: 200;
 font-size:small;
-color:rgb(182, 175, 164);
+color:rgb(146, 140, 130);
 
   margin-bottom: 25px;
 }
@@ -81,7 +81,7 @@ color:rgb(182, 175, 164);
   margin-bottom: 3rem;
   font-size:medium;
 
-  color:rgb(182, 175, 164);
+  color:rgb(146, 140, 130);
   font-weight: 100;
 }
 .buttons {
