@@ -1,1 +1,34 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  font-family: "Mulish", sans-serif;
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  background: #212529;
+}
+.main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-class {
+  width: 45%;
+}
+.image-class {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Image styles */
+.image-class img {
+  width: 100%;
+}
