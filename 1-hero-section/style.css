@@ -10,8 +10,11 @@
   width: 100%;
   height: 100vh;
 
-  background: linear-gradient(to left, white, #e8ebef);
-}
+  background-image: linear-gradient(to bottom right, 
+    rgb(242, 227, 245), 
+    rgb(251, 248, 253) 40%, 
+    rgb(255, 255, 255) 80%
+);}
 
 .tailwind-icon {
   width: 2.5rem;

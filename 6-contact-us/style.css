@@ -4,13 +4,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: white;
+    background-image: linear-gradient(to bottom right, 
+    rgb(242, 227, 245), 
+    rgb(251, 248, 253) 40%, 
+    rgb(255, 255, 255) 80%
+);
     margin: 0;
   }
   
   .container {
-    width: 40%;
-    background: #fff;
+    width: 35%;
     display: flex;
     flex-direction: column;
   }
@@ -24,7 +27,7 @@ body {
   
   .container p {
     font-size: 14px;
-    color: #666;
+    color:rgb(130, 136, 150);
     margin-top: 0;
     margin-bottom: 2.5rem;
     text-align: center;
@@ -51,7 +54,7 @@ body {
     box-sizing: border-box;
   }
   .phone select{
-    width: 15%;
+    width: 18%;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -86,7 +89,9 @@ body {
     align-items: center;
     margin-bottom: 5rem;
   }
-  
+  .policy{
+    color:rgb(215, 217, 220)
+  }
   .checkbox input {
     margin-right: 10px;
   }
