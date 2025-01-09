@@ -1,1 +1,162 @@
 /* write your css here */
+/* General Reset */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+   
+   body {
+     font-family: 'Arial', sans-serif;
+     background-color: white;
+     color: #212529;
+     line-height: 1.6;
+   }
+   
+   /* Pricing Section */
+   .pricing-section {
+    height: 100vh;
+overflow: hidden;
+     padding: 2rem;
+     text-align: center;
+   }
+   .pricing-header{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   .pricing-header h2 {
+     font-size: 2.5rem;
+     font-weight: bold;
+     margin-bottom: 0.2rem;
+     color: #212529;
+     text-align: center;
+   }
+   .pricing-header h6{
+     font-size: 0.9rem;
+     margin:0.1rem 0 0 0;
+     color: rgb(72, 72, 224);;
+   }
+   
+   .pricing-header p {
+     font-size: 1rem;
+     width: 42%;
+     margin-bottom: 1rem;
+     color: #b0a1a0;
+     text-align: center;
+   }
+   
+   /* Pricing Plans */
+   .pricing-plans {
+     display: flex;
+     justify-content: center;
+     gap: 1.5rem;
+     flex-wrap: wrap;
+   }
+
+   
+   .pricing-card {
+     background: #ffffff;
+     border-radius: 8px;
+     width: 400px;
+     padding: 2rem;
+
+     text-align: center;
+   }
+ 
+   /* .pricing-card:hover {
+     transform: translateY(-10px);
+     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+   } */
+   
+   .pricing-card h3 {
+     font-size: 1rem;
+     display: flex;
+     margin-bottom: 1rem;
+     color:black;
+}
+
+.price {
+     font-size: 2rem;
+     font-weight: bold;
+     color: #343a40;
+     display: flex;
+
+     
+}
+
+.price span {
+     font-size: 2.5rem;
+     color: black;
+     
+}
+ span.month {
+     font-size: 1rem;
+     font-weight: 300;
+     display: flex;
+     color:aca2a1;
+     align-items: end;
+     padding-bottom: 0.8rem;
+     
+     
+}
+
+.pricing-card p {
+     font-size: 0.9rem;
+     margin: 0.2rem 0 1rem 0;
+     color: #aca2a1;
+     display: flex;
+   }
+   
+   /* Button */
+   .btn {
+     width: 100%;
+     display: inline-block;
+     margin-top: 1rem;
+     margin-bottom: 1.5rem;
+
+     padding: 0.5rem 1.5rem;
+     font-size: 1rem;
+     color: #fff;
+     background-color: rgb(72, 72, 224);
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+   }
+   
+   .btn:hover {
+     background-color: rgb(69, 69, 235);
+   }
+   
+   /* Features List */
+   .pricing-card ul {
+     list-style: none;
+     text-align: left;
+     margin-top: 1.5rem;
+   }
+   
+   .pricing-card ul li {
+     font-size: 0.9rem;
+     margin-bottom: 0.5rem;
+     color: #aca2a1;
+     display: flex;
+     align-items: center;
+   }
+   
+   .pricing-card ul li:before {
+     content: "✔";
+     color: white;
+     width: 1.2rem;
+     height: 1.2rem;
+     text-align: center;
+     padding-bottom: 0.2rem;
+     background-color: rgb(72, 72, 224);
+     border-radius: 50%;
+     margin-right: 0.5rem;
+   }
+   .title{
+    text-align: start;
+   }
