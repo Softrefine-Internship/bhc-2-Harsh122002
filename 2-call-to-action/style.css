@@ -10,8 +10,9 @@
   width: 100%;
   height: 100vh;
   display: flex;
+  overflow: hidden;
 
-  background: #212529;
+  background: rgb(16, 24, 38);
 }
 .main {
   color: white;
@@ -21,14 +22,35 @@
   justify-content: center;
 }
 .main-class {
-  width: 45%;
+  width: 49%;
 }
 .image-class {
-  width: 100%;
-  overflow: hidden;
+  max-width: 50%;
 }
+.image {
+  width: 120%;
+  height: 100vh;
+}
+.heading {
+  margin-bottom: 0.5rem;
+  color: #1864ab;
+  font-size: smaller;
 
-/* Image styles */
-.image-class img {
-  width: 100%;
+}
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+.des {
+  margin-bottom: 1.5rem;
+  font-size: smaller;
+}
+.primary {
+  font-size: smaller;
+
+  padding: 0.5rem;
+  color: white;
+  border: none;
+  background-color: #343a40;
+  border-radius: 0.3rem;
 }
