@@ -1,1 +1,113 @@
-/* write your css here */
+body {
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+    margin: 0;
+  }
+  
+  .container {
+    width: 40%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .container p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .mane input,
+  textarea,
+  
+  .phone input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  .phone select{
+    width: 15%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  .nameing {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nameing .first,
+  .nameing .last {
+    flex: 1;
+  }
+  
+  .phone {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  textarea {
+    height: 90px;
+    resize: none;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  
+  .checkbox input {
+    margin-right: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #4a00e0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #3a00b0;
+  }
+  
+  a {
+    color: #4a00e0;
+    text-decoration: none;
+  }
+  
