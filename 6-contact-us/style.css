@@ -85,16 +85,21 @@ body {
   }
   
   .checkbox {
+    margin-top: 0;  
     display: flex;
     align-items: center;
     margin-bottom: 5rem;
+    gap: 10px;
   }
+ .checkbox img{
+  margin-bottom: 2px;
+ }
   .policy{
-    color:rgb(215, 217, 220)
+    color:rgb(164, 174, 190)
   }
-  .checkbox input {
+  /* .checkbox input {
     margin-right: 10px;
-  }
+  } */
   
   button {
     width: 100%;
