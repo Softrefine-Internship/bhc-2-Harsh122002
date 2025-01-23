@@ -38,9 +38,9 @@
   font-size: 2rem;
 }
 .main {
-  width: 40%;
+  width: 32%;
   display: flex;
-  padding: 3rem 4rem;
+  padding: 2rem 2rem;
   flex-direction: column;
   align-content: center;
   justify-content: center;
@@ -61,7 +61,7 @@
   height: 1.8rem;
   border: 1px solid rgb(180, 169, 169);
   border-radius: 3px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 .Password {
   display: flex;
@@ -80,8 +80,14 @@ section {
   display: flex;
   gap: 2px;
 }
+.check input{
+  cursor: pointer;
+}
 a {
   text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }
 .primary {
   width: 100%;
@@ -90,6 +96,10 @@ a {
   background-color: #4848e0;
   color: white;
   padding: 0.4rem 2rem;
+}
+.primary:hover{
+  background-color: #6d6deb;
+
 }
 .line {
   position: relative;
@@ -100,6 +110,8 @@ a {
   position: absolute;
   top: 0;
   left: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: white;
   transform: translate(-50%, -55%);
 }
@@ -123,6 +135,10 @@ a {
   color: white;
   text-align: center;
 }
+.Twitter:hover{
+  background-color: #31b5f2;
+
+}
 .Twitter span {
      margin-top: 2px;
      margin-right: 5px;
@@ -138,13 +154,19 @@ a {
   border-radius: 3rem;
   color: white;
 }
+.Git:hover{
+  background-color:rgb(26, 25, 25);
+
+}
 .Git span {
   margin-right: 5px;
 }
 
 .foot {
   margin-top: 2.5rem;
+  color: black;
 }
+
 .src {
   border: none;
 }

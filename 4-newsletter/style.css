@@ -1,4 +1,9 @@
 /* write your css here */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
@@ -12,47 +17,49 @@ body {
 }
 .container {
   text-align: center;
-  background-image: radial-gradient(circle at bottom,rgb(49, 32, 64)20%,rgb(16, 24, 38)80%);
-   width: 60%;
-  height: 50vh;
-  padding: 40px;
-  border-radius: 10px;
+  background-image: radial-gradient(ellipse at bottom , rgb(65, 40, 82) 20px, rgb(16, 24, 38) 380px);
+   width: 95%;
+  height: 90vh;
+  padding: 70px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.container h1 {
-  font-size: 24px;
-  line-height: 0.1rem;
+.container div {
+  font-size: 38px;
 
-  width: 44%;
+  width: 50%;
+  margin-bottom: 3px;
 }
 .container p {
   width: 44%;
   font-size: 14px;
   line-height: 1.5rem;
-  margin-bottom: 40px;
+  margin-bottom:30px;
 }
 .container input[type="email"] {
   padding: 10px;
-  border: 1px solid;
   border-radius: 5px;
   margin-right: 10px;
-  width: 250px;
+  border: none;
+  width: 280px;
   background-color: transparent;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 1px 3px rgb(49, 32, 64);
 }
 .container button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   font-weight: bold;
-  font-weight: bold #413c50;
+  color: rgb(49, 32, 64);
   background-color: 101826;
-  color: #007bff;
   cursor: pointer;
 }
 .container button:hover {
-  background-color: #91aac4;
-  color: 101826;
+  background-color: #52355b;
+  color: white;
 }
